@@ -1,0 +1,36 @@
+Copyright (C) 2017 Meryem Uzun-Per and Muhittin Gökmen
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without 
+modification, are permitted provided that the following conditions are 
+met:
+
+    * Redistributions of source code must retain the above copyright 
+      notice, this list of conditions and the following disclaimer.
+    * Redistributions in binary form must reproduce the above copyright 
+      notice, this list of conditions and the following disclaimer in 
+      the documentation and/or other materials provided with the distribution.
+    * The codes received by you will be used only for NON COMMERCIAL purposes.
+      This license is issued to you as an individual. For COMMERCIAL use done 
+      with the codes please contact Meryem Uzun-Per (meryemuzunper@gmail.com) 
+      for details about commercial usage license agreements.
+    * COMMERCIAL USAGE is defined as revenues generating activities. These
+      include using this software for consulting activities and selling
+      applications built on top of, or using the codes. Scientific research 
+      in an academic environment and teaching are considered NON COMMERCIAL.
+    * If you use this code in scientific work, please cite:
+
+Uzun-Per, M., and Gökmen, M., “Face Recognition with Patch-based Local Walsh 
+Transform”, in Signal Processing: Image Communication, in press.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" 
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE 
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE 
+ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE 
+LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR 
+CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF 
+SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS 
+INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN 
+CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) 
+ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE 
+POSSIBILITY OF SUCH DAMAGE.
