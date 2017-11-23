@@ -27,4 +27,19 @@ You may change parameters used in the code. The parameters you may change are gi
   
   - PMhistogramBinCount: this indicates the Phase-Magnitude Histogram bin count. [0, 2pi] angle interval is into PMhistogramBinCount bins. So, if we select PMhistogramBinCountas 8, this means [0, 2pi] angle interval will be divided into 8 bins. [0,45) -> first bin, [45,90) -> second bin, and so on.
 
-  - 
+  - eigenVectorCount: dimensions of the features of each patch that are reduced to. Value of eigenVectorCount is generally taken as one less than the number of images in the training set. Setting this value greater or equal than to the number of training images causes bug for PCA dimension reduction method.
+  
+ selectedLandmarks[]: this array holds the selected landmarks. Values in the array differ according to the landmark detection program. We used SDM or Dlib as landmark detector. The selected landmarks are determined by the tests on the FERET. Refer to article for more information. 
+  
+  - scales[]: this array holds which scales of images are used in the code. Using more than scales of images is optional. If you use just original scale of the image, scales[] should be {1.0}. 
+  
+  - numberOfpatches: this is equal to the number of the scales multiplied by number of the selected landmarks. You should set the value of the numberOfpatches according to the number of scales and number of the selected landmarks. 
+  
+  - apply2ndLWT: if this is set as true, this means that CLWT operation will be applied to the images, otherwise LWT operation will be applied. 
+  
+  - imageNormalization: this is generally selected as false, because LWT is invariant to illumination changes. 
+  
+  - searchPattern: this is equal to *.(extension of images)
+  
+  - landmarkExtension: this is equal to extension of landmark files. 
+  
