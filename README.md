@@ -29,7 +29,7 @@ You may change parameters used in the code. The parameters you may change are gi
 
   - eigenVectorCount: dimensions of the features of each patch that are reduced to. Value of eigenVectorCount is generally taken as one less than the number of images in the training set. Setting this value greater or equal than to the number of training images causes bug for PCA dimension reduction method.
   
- - selectedLandmarks[]: this array holds the selected landmarks. Values in the array differ according to the landmark detection program. We used SDM or Dlib as landmark detector. The selected landmarks are determined by the tests on the FERET. Refer to article for more information. 
+  - selectedLandmarks[]: this array holds the selected landmarks. Values in the array differ according to the landmark detection program. We used SDM or Dlib as landmark detector. The selected landmarks are determined by the tests on the FERET. Refer to article for more information. 
   
   - scales[]: this array holds which scales of images are used in the code. Using more than scales of images is optional. If you use just original scale of the image, scales[] should be {1.0}. 
   
