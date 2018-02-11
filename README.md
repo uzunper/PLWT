@@ -5,7 +5,7 @@ If you use the code as a whole or partially please refer to
 
 The code is implemented in Microsoft Visual Studio 2010 C++ and OpenCv 2.4.1 on Windows 7. You may need to change platform specific functions to run the code without bugs.
 
-This code is used for face recognition problem. It runs on the FERET database and use Fa of the FERET as gallery set, Fb, Fc, Dup1 and Dup2 as test sets. In order to run this code for other databases you need to change some parts of the code according to test protocols of the databases. You can also use this code in face verification problem. 
+This code is used for face recognition problem. It runs on the FERET database and use Fa of the FERET as gallery set, Fb, Fc, Dup1 and Dup2 as test sets. In order to run this code for other databases you need to change some parts of the code according to test protocols of the databases. You can also use this code in face verification problem. double is used as variable types. If you use float instead of double it will run faster. 
 
 Installation:
 
